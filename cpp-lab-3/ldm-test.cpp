@@ -25,17 +25,19 @@ long long getResult(long long array[], size_t size) {
 	return array[0];
 }
 
-//int main()
-//{
-//	int n;
-//	std::cin >> n;
-//
-//	long long arr[32]{};
-//
-//	for (int i = 0; i < n; ++i) {
-//		std::cin >> arr[i];
-//	}
-//
-//	std::cout << getResult(arr, n);
-//	return 0;
-//}
+/*
+int main()
+{
+	int n;
+	std::cin >> n;
+
+	long long arr[32]{};
+
+	for (int i = 0; i < n; ++i) {
+		std::cin >> arr[i];
+	}
+
+	std::cout << getResult(arr, n);
+	return 0;
+}
+*/
