@@ -4,7 +4,7 @@ long long min(long long a, long long b) {
 	return a < b ? a : b;
 }
 
-int getResult(const long long array[], const size_t index, size_t n, long long sum1, long long sum2) {
+int getResult(const long long array[], const size_t index, const size_t n, long long sum1, long long sum2) {
 	if (index == n) {
 		return abs(sum1 - sum2);
 	}
